@@ -1,6 +1,6 @@
 # Project Description
 - Consider the U. S. monthly unemployment rate from January 1951 to February 2004 from unemployment.xlsx. The first column is the unemployment rate, the
-second is help wanted ads (forget about this variable), the third is the year, and the last is the month. The data, provided by the St. Louis Fed, are seasonally adjusted. I build a time series model and use it to forecast unemployment in April 2004.
+second is help wanted ads (ignore this variable), the third is the year, and the last is the month. The data, provided by the St. Louis Fed, are seasonally adjusted. I build a time series model and use it to forecast unemployment in April 2004.
 # Mechanism
 - I first conduct stationarity tests on the series using an augmented Dickey-Fueller test. I conduct the test on a pure random walk model, a random walk model with drift and a random
 walk model with drift plus trend although the data seems not to have a trend. I select 36 lags to begin with, as even though the data are seasonally adjusted we want to account for
